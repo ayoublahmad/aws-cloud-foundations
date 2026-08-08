@@ -90,7 +90,7 @@ Examples:
 ---
 
 
-## My Notes
+## My POV
 
 This framework changed the way I think about designing cloud applications. Instead of only asking "Does it work?", I should also ask:
 
@@ -105,7 +105,19 @@ I now understand that cloud architecture is about making good design decisions, 
 ## Questions to Explore
 
 - How do companies evaluate their architecture against the Well-Architected Framework?
+> Companies evaluate their architecture by performing an AWS Well-Architected Review, using the AWS Well-Architected Tool to assess workloads against the framework's six pillars and identify improvement opportunities.
 - What AWS tool helps review architectures?
+>The tool is called the AWS Well-Architected Tool.
+
+>It is an AWS service that helps you:
+Assess your workloads against the six pillars of the AWS Well-Architected Framework.
+Answer a series of best-practice questions.
+Identify high-risk issues (HRIs).
+Receive recommendations to improve your architecture.
+Track improvements over time.
+
+>AWS Trusted Advisor
+Automatically checks your AWS account for cost, security, performance, fault tolerance, and service quotas and provides recommendations.
 - How is the framework applied in production environments?
 
 ## References

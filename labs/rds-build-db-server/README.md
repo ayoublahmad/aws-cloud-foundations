@@ -1,6 +1,5 @@
-# Lab 05 - Build Your DB Server and Interact With Your DB Using an App
+#  Lab : Building my own DB Server and Interact With Your DB Using an App
 
-  
 > **Category:** Databases  
 > **AWS Services:** Amazon RDS, EC2, VPC, Security Groups
 
@@ -33,27 +32,25 @@ The environment contained:
 - A VPC
 - A Web Server running on EC2
 - Networking components
-![Initial Architecture](screenshots/before-lab-architecture.png)
+  ![Initial Architecture](screenshots/before-lab-architecture.png)
 
 ## After the Lab
 
 The final architecture:
 
-
 ![Final Architecture](screenshots/after-lab-architecture.png)
-
 
 ---
 
 # AWS Services Used
 
-| Service | Purpose |
-|---|---|
-| Amazon RDS | Managed MySQL database |
-| EC2 | Hosts the web application |
-| VPC | Provides isolated networking |
-| Security Groups | Controls database access |
-| Availability Zones | Provides high availability |
+| Service            | Purpose                      |
+| ------------------ | ---------------------------- |
+| Amazon RDS         | Managed MySQL database       |
+| EC2                | Hosts the web application    |
+| VPC                | Provides isolated networking |
+| Security Groups    | Controls database access     |
+| Availability Zones | Provides high availability   |
 
 ---
 
@@ -262,6 +259,7 @@ In a real environment we need to:
 ---
 
 # Challenges Encountered
+
 | Problem                         | Solution                                                                                                                                                                                                              |
 | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | My web server wasn't accessible | The problem was caused by entering only the IP address in a new Chrome tab. Chrome tried to use HTTPS by default, while the web server was configured to use HTTP. I needed to access it using `http://xxx.xx.xx.xx`. |
@@ -300,4 +298,3 @@ Multi-AZ improves database reliability by maintaining a synchronized standby dat
 - Cloud Database Management
 
 ---
-
